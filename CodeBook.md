@@ -7,6 +7,9 @@ Code book describing the variables, the data, and work performed to clean up the
 Data collected from Samsung Galaxy S phone for the Human Activity Recognition Using Smartphones Data Set from individuals performing different activities.
 The features selected for this database come from the accelerometer and gyroscope.
 
+## Values:
+All variables are mean values for repeated measures for a subject's specific activity.
+
 ## Variables:
 * subject = individuals with id 1-30
 * activity = WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING
