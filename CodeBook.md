@@ -8,7 +8,7 @@ Data collected from Samsung Galaxy S phone for the Human Activity Recognition Us
 The features selected for this database come from the accelerometer and gyroscope.
 
 ## Values:
-All variables are mean values for repeated measures for a subject's specific activity.
+All measured variables are mean values for repeated measures for a subject's specific activity.
 
 ## Variables:
 * subject = individuals with id 1-30
