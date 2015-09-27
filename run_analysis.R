@@ -74,7 +74,7 @@ load_activity <- function() {
 #  Args:
 #    data.path: changes the current wd if entered
 #    out.file: the output file path
-merge_and_write_tidy_data <- function(data.path = "",out.file="") {
+merge_and_write_tidy_data <- function(data.path = "",out.file="tidy.data.txt") {
   if(data.path != ""){
     setwd(data.path)
   }
@@ -132,5 +132,4 @@ merge_and_write_tidy_data <- function(data.path = "",out.file="") {
   if(out.file!=""){
     write.table(sub.df,file=out.file,row.names = FALSE,quote=FALSE)
   }
-  return(sub.df)
 }
